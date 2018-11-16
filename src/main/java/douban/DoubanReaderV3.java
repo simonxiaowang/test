@@ -157,7 +157,6 @@ public class DoubanReaderV3 {
 		
 		try {
 			
-			
 			JSONObject json = readJsonFromUrl("https://api.douban.com/v2/movie/search?q=" + movieName + "&start=0&count=1");
 			
 			JSONObject subjects = json.getJSONArray("subjects").getJSONObject(0);
