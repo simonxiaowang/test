@@ -109,6 +109,7 @@ public class ExportMovieList {
 		write(movieList);
 	}
 	
+	
 	public static void main(String[] args) throws MalformedURLException, IOException {
 		Long start = System.currentTimeMillis();
 		FILE_NAME = "C:\\Users\\Simon\\Desktop\\MovieLis20181116.xlsx";
